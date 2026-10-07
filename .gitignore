@@ -1,0 +1,3 @@
+# Byte-identical private source archive: never publish without a separate review
+/recommendations/originals/
+.DS_Store
