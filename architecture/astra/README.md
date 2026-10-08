@@ -1,5 +1,11 @@
-# Astra architecture pass
+# Astra independent architecture
 
-Placeholder only. The requested independent Astra / xhigh pass has not run. The local project environment is now available; independent execution is pending coordination with the requested second model. No architecture draft is present here.
+The independent recommendation is complete and frozen. Cross-review has not begun.
 
-Use the approved intent, briefing and research evidence only. Withhold recommendations and the other independent draft until both first drafts are complete.
+- [Initial recommendation](initial.md): macOS architecture, execution modes, capability contracts, dynamic workflow runtime, agent construction, evolving examples, alternatives and falsification experiments.
+- [Freeze record](FREEZE.md) and [SHA-256 manifest](INITIAL-SHA256SUMS).
+- [Input verification](input-verification.md).
+- Supporting research: [native control](native-control.md), [web runtime](web-runtime.md), [workflow semantics](workflow-semantics.md).
+- [Internal review corrections](internal-review.md).
+
+Preserve initial.md. Joint-stage revisions require Gen's explicit release and must be recorded separately.

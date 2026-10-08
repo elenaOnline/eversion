@@ -6,9 +6,14 @@ Research and independent architecture work for composing existing applications i
 
 The complete 26-file research preparation packet was received locally on 7 October 2026. Every incoming file matches its supplied SHA-256 hash. The original prompt in `intent.md` is unchanged. This project contains research and coordination documents; no application implementation has been started by the setup coordinator.
 
-The project is in `Intelligence/00-Projects/eversion`. The public repository is [elenaOnline/eversion](https://github.com/elenaOnline/eversion). The user approved publication of the reviewed research, original prompt, prior recommendations and architecture documents on 7 October 2026. This initial snapshot contains the reviewed research packet; new architecture deliverables receive a separate final review.
+The project is in `Intelligence/00-Projects/eversion`. The public repository is [elenaOnline/eversion](https://github.com/elenaOnline/eversion). The user approved publication of the reviewed research, original prompt, prior recommendations and architecture documents on 7 October 2026. The repository contains the reviewed research packet and the architecture progress described below; further deliverables receive a separate final review.
 
-Independent architecture work is coordinated separately for Fable 5.1 (`claude-fable-5-1`, xhigh) and Astra (`gpt-6-astra`, xhigh). The local model catalog/CLI identifies these exact models and effort settings. Model availability checks do not establish that either architecture pass has completed. Each author's directory records its own work and status.
+Architecture status, 8 October 2026: **Astra's independent draft is complete and frozen; Fable has verification notes only, and its initial architecture is incomplete.** Fable's pass reported a refusal and produced no initial architecture. There is no consensus architecture and no cross-review release.
+
+- [Astra initial draft](architecture/astra/initial.md), [freeze record](architecture/astra/FREEZE.md), and [supporting research](architecture/astra/README.md).
+- [Fable status](architecture/fable/README.md) and [principal verification notes](architecture/fable/research/principal-direct-verification.md).
+
+Astra's frozen `initial.md` has SHA-256 `24920a26de38b49a301c328c0b806a7d8e3b663a1d1ed982f0a9374b6f7cae60`. This publication preserves that draft and its supporting files unchanged. It saves incomplete project progress; it is not a joint recommendation, implementation, or compatibility validation.
 
 ## Folder map
 
@@ -21,8 +26,8 @@ Independent architecture work is coordinated separately for Fable 5.1 (`claude-f
 - `research/privacy-review.md`: the preparation-stage publication review
 - `recommendations/publication-candidates/`: seven redacted research and recommendation reports for later comparison
 - `recommendations/README.md`: independence and publication boundaries
-- `architecture/fable/`: Fable's independent architecture work
-- `architecture/astra/`: Astra's independent architecture work
+- `architecture/fable/`: verification notes; initial architecture incomplete
+- `architecture/astra/`: completed, frozen independent draft and supporting research
 - `TRANSFER-SHA256SUMS`: hashes of the received packet before local status edits
 
 ## Independent first drafts
